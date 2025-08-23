@@ -28,8 +28,6 @@ This build had a clear checklist:
 
 The system is straightforward. A **Raspberry Pi** and a **mini 5 Plus** board run the show. They read sensor data, process the G-code, and fire commands to the motors and heaters.
 
-
-
 * **Controller:** The Raspberry Pi handles the processing and the touchscreen UI.
 * **Movement:** The CoreXY system uses two long belts to control the X and Y axes. It's lighter and faster than moving the whole gantry. We're using **sensorless homing** and stall detection, so there are fewer wires and failure points.
 * **Extrusion:** A **Hemera high-flow hotend** with a big **1.4mm Revo nozzle** pushes out a ton of plastic, which is essential for large prints.
@@ -38,6 +36,8 @@ The system is straightforward. A **Raspberry Pi** and a **mini 5 Plus** board ru
 ---
 
 ### **The Parts List (Bill of Materials)**
+
+This is everything you need to build the core robot.
 
 | Component | Spec / Note |
 | :--- | :--- |
